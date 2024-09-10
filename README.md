@@ -24,15 +24,7 @@ This weather app allows users to enter any city name from around the world and g
 1. **Obtain an API Key**
    - Sign up for a free API key from OpenWeatherMap at [OpenWeather API](https://openweathermap.org/api).
 
-2. **Setup Environment Variables**
-   - Create a `.env` file in the root directory of the project.
-   - Add your API key to the `.env` file:
-     ```
-     OPENWEATHER_API_KEY=your_openweather_api_key
-     ```
-   - **Important:** Ensure the `.env` file is included in your `.gitignore` to prevent it from being tracked by version control.
-
-3. **Run the App**
+2. **Run the App**
    - Replace `your_openweather_api_key` with your actual API key in the file.
    - Open `index.html` in a browser to use the app.
 

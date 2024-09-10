@@ -24,7 +24,7 @@ body {
     background-color: #1e1e1e;
     border-radius: 15px;
     padding: 2rem;
-    width: 400px;
+    width: auto;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
@@ -133,4 +133,31 @@ input[type="text"]::placeholder {
 
 input[type="text"]:hover {
     border-color: #3700b3;
+}
+
+/* Forecast section */
+.forecast {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.forecast-day {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.forecast-day img {
+    width: 50px;
+    height: 50px;
+}
+
+.forecast-day p {
+    margin: 5px 0;
 }
